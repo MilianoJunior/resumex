@@ -15,6 +15,13 @@ Tecnologias;
 - OpenAI API
 '''
 import streamlit as st
+
+# Configurações do ícone e título da página
+st.set_page_config(
+    page_title="Resumex - Resumo de Vídeos do YouTube",
+    page_icon="resumex.png",  # Substitua pelo caminho do logo
+)
+
 import openai
 import requests
 import json
